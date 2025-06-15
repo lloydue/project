@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #003366; 
+    color: #FFD700; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top-bar {
+    background-color: #002244; 
+    color: #FFD700;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    background-color: #004488;
+    color: #FFD700;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-left h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.hero-left p {
+    margin-bottom: 20px;
+}
+
+.cta-link {
+    color: #FFD700;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.signup-box {
+    background-color: #FFD700;
+    color: #003366;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.signup-box h2 {
+    margin-bottom: 10px;
+}
+
+.google-btn {
+    background-color: #002244;
+    color: #FFD700;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.divider {
+    text-align: center;
+    margin: 10px 0;
+    color: #FFD700;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #004488;
+    border: 1px solid #FFD700;
+    color: #FFD700;
+}
+
+.name-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+form small {
+    display: block;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+form button {
+    background-color: #002244;
+    color: #FFD700;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonial-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #002244; /* Deep blue footer */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    color: #FFD700;
+}

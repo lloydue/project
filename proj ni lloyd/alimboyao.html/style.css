@@ -1,0 +1,22 @@
+@media screen and (max-width: 650px)
+{
+    h1{
+        font-size: 1.6rem;
+        color: red;
+        padding-left: 12px;
+    }    
+    body{
+        background-color:lightblue;
+        padding-left: 12px;
+    }
+}
+ 
+@media screen and (max-width:900px)
+{
+    h2{
+        color:blue;
+    }
+    body{
+        padding-left: 12px;
+    }
+}
